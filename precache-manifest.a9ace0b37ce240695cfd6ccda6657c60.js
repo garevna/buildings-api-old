@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dgtek-buildings-api/favicon-32x32.png"
   },
   {
-    "revision": "8c9507b0fd21bd24e05ad73377b2c381",
+    "revision": "da1065b9e7af88002fcd41cdfee1ff65",
     "url": "/dgtek-buildings-api/index.html"
   },
   {
