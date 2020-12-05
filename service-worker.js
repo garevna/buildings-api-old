@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dgtek-buildings-api/precache-manifest.e5d9c15898286fa1d9d8eed0e7a54910.js"
+  "/dgtek-buildings-api/precache-manifest.5830c0edb4615ae2b9a9c4f123d46e80.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dgtek-buildings-api"});
