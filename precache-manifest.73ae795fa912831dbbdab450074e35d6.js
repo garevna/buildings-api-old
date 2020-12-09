@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dgtek-buildings-api/apple-touch-icon.png"
   },
   {
-    "revision": "3fe711a84040446251ca",
+    "revision": "dce6ce95aa37e2ffab85",
     "url": "/dgtek-buildings-api/css/app.e94857a0.css"
   },
   {
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dgtek-buildings-api/css/chunk-478715c5.ff26364a.css"
   },
   {
-    "revision": "11b14d2e79a63b5f5470",
+    "revision": "c09b77d167b641c2f591",
     "url": "/dgtek-buildings-api/css/chunk-513ba47f.c14ec838.css"
   },
   {
@@ -116,12 +116,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dgtek-buildings-api/favicon-32x32.png"
   },
   {
-    "revision": "485489cf237097ffec2083e0bf8920b6",
+    "revision": "45c933907a2036b940842cc5733fecf3",
     "url": "/dgtek-buildings-api/index.html"
   },
   {
-    "revision": "3fe711a84040446251ca",
-    "url": "/dgtek-buildings-api/js/app.63578def.js"
+    "revision": "dce6ce95aa37e2ffab85",
+    "url": "/dgtek-buildings-api/js/app.bbdf6c65.js"
   },
   {
     "revision": "0fc323683b14b23a3cf5",
@@ -176,8 +176,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dgtek-buildings-api/js/chunk-478715c5.99746b00.js"
   },
   {
-    "revision": "11b14d2e79a63b5f5470",
-    "url": "/dgtek-buildings-api/js/chunk-513ba47f.e3778a70.js"
+    "revision": "c09b77d167b641c2f591",
+    "url": "/dgtek-buildings-api/js/chunk-513ba47f.87cc1831.js"
   },
   {
     "revision": "f3290e2a59f9444c6d7b",
