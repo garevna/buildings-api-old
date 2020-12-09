@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dgtek-buildings-api/apple-touch-icon.png"
   },
   {
-    "revision": "b7e3d2ca30896d304472",
+    "revision": "3fe711a84040446251ca",
     "url": "/dgtek-buildings-api/css/app.e94857a0.css"
   },
   {
@@ -48,19 +48,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dgtek-buildings-api/css/chunk-4353f169.9d702415.css"
   },
   {
-    "revision": "d3a6b065ae1269d870d2",
+    "revision": "6240fc39bbcca2aca1c3",
     "url": "/dgtek-buildings-api/css/chunk-43d21e96.bb1378a9.css"
   },
   {
-    "revision": "cd23c52bf7df6edd7959",
+    "revision": "d22a564f5f4fe34ab732",
     "url": "/dgtek-buildings-api/css/chunk-460d880e.dd84c133.css"
   },
   {
-    "revision": "024a19ad05ed9146acaa",
+    "revision": "b71715ec48a6ebc73dd8",
     "url": "/dgtek-buildings-api/css/chunk-478715c5.ff26364a.css"
   },
   {
-    "revision": "4d18fb6fcbcef528f8f8",
+    "revision": "11b14d2e79a63b5f5470",
     "url": "/dgtek-buildings-api/css/chunk-513ba47f.c14ec838.css"
   },
   {
@@ -72,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dgtek-buildings-api/css/chunk-79b08059.aa35bca3.css"
   },
   {
-    "revision": "d4bc66850fbb1062adea",
-    "url": "/dgtek-buildings-api/css/chunk-a2fa87e8.726a9f1c.css"
+    "revision": "cd0787818797813e21fc",
+    "url": "/dgtek-buildings-api/css/chunk-84242278.2ff7c37e.css"
+  },
+  {
+    "revision": "faf8487301566a6c0847",
+    "url": "/dgtek-buildings-api/css/chunk-8b02d28a.7238c912.css"
   },
   {
     "revision": "e171747715cc054849b4",
     "url": "/dgtek-buildings-api/css/chunk-bc0b261a.df354eba.css"
-  },
-  {
-    "revision": "cd44f3147db0583918c7",
-    "url": "/dgtek-buildings-api/css/chunk-c8c14562.6dd1d6d1.css"
   },
   {
     "revision": "04867cf4482ab3327377",
@@ -116,12 +116,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dgtek-buildings-api/favicon-32x32.png"
   },
   {
-    "revision": "9c569876a8978e79fa211cd9e1a69043",
+    "revision": "485489cf237097ffec2083e0bf8920b6",
     "url": "/dgtek-buildings-api/index.html"
   },
   {
-    "revision": "b7e3d2ca30896d304472",
-    "url": "/dgtek-buildings-api/js/app.d9b4e488.js"
+    "revision": "3fe711a84040446251ca",
+    "url": "/dgtek-buildings-api/js/app.63578def.js"
   },
   {
     "revision": "0fc323683b14b23a3cf5",
@@ -156,28 +156,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dgtek-buildings-api/js/chunk-39c73538.754adca4.js"
   },
   {
-    "revision": "e421fa1870a5af4055ee",
-    "url": "/dgtek-buildings-api/js/chunk-417bf35a.59e781a3.js"
+    "revision": "9afcd8985b0def782ce1",
+    "url": "/dgtek-buildings-api/js/chunk-417bf35a.f8c5f681.js"
   },
   {
     "revision": "80d2071beb87c9ab3a96",
     "url": "/dgtek-buildings-api/js/chunk-4353f169.fd45c5e4.js"
   },
   {
-    "revision": "d3a6b065ae1269d870d2",
-    "url": "/dgtek-buildings-api/js/chunk-43d21e96.0a0b8ae6.js"
+    "revision": "6240fc39bbcca2aca1c3",
+    "url": "/dgtek-buildings-api/js/chunk-43d21e96.0a87d9f4.js"
   },
   {
-    "revision": "cd23c52bf7df6edd7959",
-    "url": "/dgtek-buildings-api/js/chunk-460d880e.ffca3f1a.js"
+    "revision": "d22a564f5f4fe34ab732",
+    "url": "/dgtek-buildings-api/js/chunk-460d880e.16ffda60.js"
   },
   {
-    "revision": "024a19ad05ed9146acaa",
-    "url": "/dgtek-buildings-api/js/chunk-478715c5.8065c96e.js"
+    "revision": "b71715ec48a6ebc73dd8",
+    "url": "/dgtek-buildings-api/js/chunk-478715c5.99746b00.js"
   },
   {
-    "revision": "4d18fb6fcbcef528f8f8",
-    "url": "/dgtek-buildings-api/js/chunk-513ba47f.3507acb3.js"
+    "revision": "11b14d2e79a63b5f5470",
+    "url": "/dgtek-buildings-api/js/chunk-513ba47f.e3778a70.js"
   },
   {
     "revision": "f3290e2a59f9444c6d7b",
@@ -196,16 +196,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dgtek-buildings-api/js/chunk-79b08059.d420bb0b.js"
   },
   {
-    "revision": "d4bc66850fbb1062adea",
-    "url": "/dgtek-buildings-api/js/chunk-a2fa87e8.39122b9c.js"
+    "revision": "cd0787818797813e21fc",
+    "url": "/dgtek-buildings-api/js/chunk-84242278.01107b26.js"
+  },
+  {
+    "revision": "faf8487301566a6c0847",
+    "url": "/dgtek-buildings-api/js/chunk-8b02d28a.ba9db911.js"
   },
   {
     "revision": "e171747715cc054849b4",
     "url": "/dgtek-buildings-api/js/chunk-bc0b261a.4948dc84.js"
-  },
-  {
-    "revision": "cd44f3147db0583918c7",
-    "url": "/dgtek-buildings-api/js/chunk-c8c14562.8260e32d.js"
   },
   {
     "revision": "04867cf4482ab3327377",
