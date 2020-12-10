@@ -1,7 +1,14 @@
 {
-  "root": "public",
-  "clean_urls": false,
+  "root": "dist/",
+  "clean_urls": true,
   "routes": {
+    "/*.html": "index.html",
     "/**": "index.html"
+  },
+  "headers": {
+    "/*": {
+      "Cache-Control": "public, max-age=512000",
+      "Access-Control-Allow-Origin": "*"
+    }
   }
 }
