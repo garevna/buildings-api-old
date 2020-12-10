@@ -17,10 +17,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "start": "vue-cli-service serve",
-    "server_start": "node server.js",
-    "package": "vue-cli-service build --target lib --name dgtek-buildings ./src/components/buildings-index.js",
-    "test:unit": "vue-cli-service test:unit",
+    "start": "node server.js",
     "lint": "vue-cli-service lint"
   },
   "files": [
