@@ -1,16 +1,16 @@
 {
   "name": "dgtek-buildings-api",
   "version": "1.0.0",
-  "description": "Component for npm registry",
+  "description": "Admin dashboard for DGtek Portal project",
   "author": "garevna <irina.h.fylyppova@gmail.com>",
   "keywords": [
     "dgtek",
     "buildings",
-    "polygons",
-    "component",
-    "npm",
-    "registry",
-    "google map"
+    "api",
+    "dashboard",
+    "portal",
+    "admin",
+    "google maps api"
   ],
   "repository": "https://github.com/garevna/dgtek-buildings-api.git",
   "main": "./dist/dgtek-buildings.common.js",

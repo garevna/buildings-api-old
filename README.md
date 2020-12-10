@@ -1,7 +1,13 @@
 # dgtek-buildings-api
 ______________________________________________
 
-[**Demo**](https://garevna.github.io/dgtek-buildings-api/)
+![](https://gitlab.com/uploads/-/system/project/avatar/17907315/logo-icon-light.png)
+
+#### DEMO:
+
+[**Heroku**](https://dgtek-buildings.herokuapp.com/)
+
+[**GitHub**](https://garevna.github.io/dgtek-buildings-api/)
 
 ________________________________________________
 
@@ -20,9 +26,9 @@ npm run serve
 npm run build
 ```
 
-### Run your unit tests
+### Start
 ```
-npm run test:unit
+npm run start
 ```
 
 ### Lints and fixes files
