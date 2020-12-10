@@ -150,10 +150,25 @@
         :finished.sync="diagnosticsDone"
         :opened.sync="diagnostics"
       />
+
+      <PopupDelete
+        :opened.sync="confirmDeleteVisibility"
+        :delete.sync="removingConfirmed"
+      />
+      <ErrorMessage
+        :opened.sync="errorMessagePopupOpened"
+        :type="errorType"
+        :message="errorMessage"
+      />
+      <MessagePopup
+        :opened.sync="messagePopupOpened"
+        :type="messageType"
+        :message="message"
+      />
     </v-main>
 
     <!-- =================== BOTTOM NAVIGATION ===================== -->
-    <v-bottom-navigation fixed v-model="value" color="#079">
+    <v-bottom-navigation fixed v-model="value" color="#079" class="py-1">
 
       <v-btn value="home">
         <span>Home</span>
@@ -177,20 +192,6 @@
 
     </v-bottom-navigation>
 
-    <PopupDelete
-      :opened.sync="confirmDeleteVisibility"
-      :delete.sync="removingConfirmed"
-    />
-    <ErrorMessage
-      :opened.sync="errorMessagePopupOpened"
-      :type="errorType"
-      :message="errorMessage"
-    />
-    <MessagePopup
-      :opened.sync="messagePopupOpened"
-      :type="messageType"
-      :message="message"
-    />
   </v-app>
 </template>
 
