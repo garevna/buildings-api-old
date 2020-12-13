@@ -2,6 +2,6 @@ module.exports = {
   transpileDependencies: [
     'vuetify'
   ],
-  runtimeCompiler: true
-  // publicPath: process.env.NODE_ENV === 'production' ? '/dgtek-buildings-api/' : '/'
+  runtimeCompiler: true,
+  publicPath: process.env.NODE_ENV === 'production' ? '/dgtek-buildings-api/' : '/'
 }
