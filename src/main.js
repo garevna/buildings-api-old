@@ -10,7 +10,9 @@ const {
   _createNewBuilding,
   _saveBuilding,
   _deleteBuilding,
-  _uploadBuildingFiles
+  _deleteImage,
+  _uploadBuildingFiles,
+  _getBase64ByLink
 } = require('@/helpers/').default
 
 Object.assign(Vue.prototype, {
@@ -20,7 +22,9 @@ Object.assign(Vue.prototype, {
   _createNewBuilding,
   _saveBuilding,
   _deleteBuilding,
-  _uploadBuildingFiles
+  _deleteImage,
+  _uploadBuildingFiles,
+  _getBase64ByLink
 })
 
 Vue.config.productionTip = false

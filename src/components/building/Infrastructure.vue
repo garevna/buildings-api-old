@@ -1,5 +1,5 @@
 <template>
-  <v-layout row justify-center>
+  <v-container>
     <v-card flat class="mt-10 mr-10" max-width="600">
       <v-card-text>
         <h4>Infrastructure Type:</h4>
@@ -168,7 +168,7 @@
         </template>
       </v-simple-table>
     </v-card>
-  </v-layout>
+  </v-container>
 </template>
 
 <script>

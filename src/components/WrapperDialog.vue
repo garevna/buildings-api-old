@@ -1,5 +1,5 @@
 <template>
-  <v-layout row justify-center>
+  <!-- <v-layout row justify-center style="width: 100%"> -->
     <v-dialog
       v-model="dialog"
       fullscreen
@@ -22,6 +22,7 @@
         </v-toolbar>
         <keep-alive>
           <component
+            v-if="data"
             :is="currentComponent"
             :data="data"
             :changed.sync="changed"
@@ -30,12 +31,13 @@
         </keep-alive>
       </v-card>
     </v-dialog>
-  </v-layout>
+  <!-- </v-layout> -->
 </template>
 
 <script>
 
 export default {
+  name: 'WrapperDialog',
   props: [
     'currentComponentName',
     'opened',
@@ -62,14 +64,11 @@ export default {
       this.data = localStorage.getItemByName('selectedBuilding')
       this.currentComponent = this.components[val]
     },
-    buildingId: {
-      immediate: true,
-      handler (val) {
-        if (val) {
-          this.data = localStorage.getItemByName('selectedBuilding')
-          this.data || this.$emit('update:opened', false)
-        } else this.$emit('update:opened', false)
-      }
+    buildingId (val) {
+      if (val) {
+        this.data = localStorage.getItemByName('selectedBuilding')
+        this.data || this.$emit('update:opened', false)
+      } else this.$emit('update:opened', false)
     },
     changed (val) {
       if (val) {

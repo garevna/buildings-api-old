@@ -22,7 +22,11 @@ export default {
     link: {
       immediate: true,
       handler (val) {
-        (val && val.indexOf('https://') === 0) && this.changeFrameContent(val)
+        if (val && val.indexOf('https://') === 0) {
+          this.changeFrameContent(val)
+        } else {
+          this.base64String = this.notFound
+        }
       }
     }
   },

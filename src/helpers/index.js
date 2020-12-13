@@ -3,8 +3,10 @@ import _getBuildingsList from './getBuildingsList'
 import _getBuildingDetails from './getBuildingDetails'
 import _createNewBuilding from './createNewBuilding'
 import _saveBuilding from './saveBuilding'
-import _deleteBuilding from '@/helpers/deleteBuilding'
-import _uploadBuildingFiles from '@/helpers/uploadBuildingFiles'
+import _deleteBuilding from './deleteBuilding'
+import _deleteImage from './deleteImage'
+import _uploadBuildingFiles from './uploadBuildingFiles'
+import _getBase64ByLink from './getBase64ByLink'
 
 export default {
   _validateAddress,
@@ -13,5 +15,7 @@ export default {
   _createNewBuilding,
   _saveBuilding,
   _deleteBuilding,
-  _uploadBuildingFiles
+  _deleteImage,
+  _uploadBuildingFiles,
+  _getBase64ByLink
 }

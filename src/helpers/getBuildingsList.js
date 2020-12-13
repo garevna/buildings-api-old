@@ -10,7 +10,7 @@ export default async () => {
   })).json()
   if (!response.description) {
     console.warn('ERROR readin DB')
-    return
+    return response
   }
   response.description.forEach((building, index) => {
     const status = localStorage.$buildingTypes.indexOf(building.status) !== -1 ? building.status : localStorage.$buildingTypes.default
@@ -18,4 +18,6 @@ export default async () => {
     localStorage.addBuildingToCollection(building._id, status)
   })
   localStorage.setItemByName('selectedBuilding', null)
+
+  return response
 }

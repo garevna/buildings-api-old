@@ -1,5 +1,5 @@
 <template>
-  <v-layout row justify-center>
+  <v-container>
     <BuildingTypes :buildingType.sync="buildingType" />
     <v-card flat class="mx-auto pa-4" max-width="100%">
       <table class="mt-12 mx-auto">
@@ -74,7 +74,7 @@
         />
       </v-card>
     </v-card>
-  </v-layout>
+  </v-container>
 </template>
 
 <script>
@@ -90,6 +90,9 @@ export default {
   },
   props: ['data', 'changed'],
   computed: {
+    ready () {
+      return !!this.data
+    },
     buildingType: {
       get () {
         return this.data ? this.data.buildingType : ''

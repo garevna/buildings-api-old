@@ -231,7 +231,6 @@ export default {
         this.expandedItemName = ''
         this.buildingId = null
         localStorage.setItemByName('selectedBuilding', null)
-        this.dialog = true
       }
     },
     updateListOfBuildings (val) {
@@ -269,6 +268,17 @@ export default {
   },
 
   methods: {
+    // rowClickHandler (event) {
+    //   console.log(event)
+    //   this.$parent.$emit('list-item-expanded', event)
+    // },
+    // async selectedBuildingCallback (event) {
+    //   console.log(event)
+    //   this.$emit('list-item-expanded', {
+    //     message: 'Hello'
+    //   })
+    // },
+
     clearActive () {
       this.items.forEach(item => Object.assign(item, { isActive: false }))
     },

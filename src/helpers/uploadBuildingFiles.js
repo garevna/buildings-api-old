@@ -1,8 +1,8 @@
 const readFile = function (file) {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const reader = Object.assign(new FileReader(), {
-      onload: (event) => resolve(event.target.result),
-      onerror: () => reject(new Error(`Error reading the file ${file.name}`))
+      onload: (event) => resolve({ body: event.target.result, error: null }),
+      onerror: () => resolve({ body: null, error: `Error reading the file ${file.name}` })
     })
     reader.readAsDataURL(file)
   })
@@ -14,14 +14,8 @@ export default async (file, route) => {
   if (Object.keys(config).indexOf(route) === -1) return { error: 'Invalid route' }
   if (file.type.indexOf(config[route].type) === -1) return { error: 'Invalid file type' }
 
-  const fileResult = {
-    body: null,
-    error: null
-  }
-
-  fileResult.body = await readFile(file).catch((error) => { fileResult.error = error })
+  const fileResult = await readFile(file)
   if (fileResult.error) return fileResult
-  if (fileResult.statusCode && fileResult.message) return Object.assign(fileResult, { error: fileResult.message })
 
   const building = localStorage.getItemByName('selectedBuilding')
 
@@ -36,6 +30,8 @@ export default async (file, route) => {
       data: fileResult.body
     })
   })).json()
+
+  if (response.statusCode && response.message) Object.assign(response, { error: response.message })
 
   return response
 }

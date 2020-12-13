@@ -8,7 +8,7 @@
         <h5>Buildings API</h5>
       </v-toolbar-title>
       <v-toolbar
-        v-if="selectedBuildingId"
+        v-if="selectedBuildingId && buildingDataReady"
         flat
         class="transparent"
       >
@@ -213,6 +213,7 @@ export default {
 
   data: () => ({
     ready: false,
+    buildingDataReady: false,
     save: false,
     address: '',
     selectedBuilding: false,
@@ -251,6 +252,8 @@ export default {
 
   watch: {
     selectedBuildingId (val) {
+      this.componentName = ''
+      this.buildingDataReady = false
       if (!val) {
         localStorage.setItemByName('selectedBuilding', null)
         return
@@ -262,8 +265,15 @@ export default {
               type: 'Data error',
               message: 'Reading current building\' data failed'
             })
+          } else {
+            this.buildingDataReady = true
           }
         })
+    },
+    dialog (val) {
+      if (!val) {
+        this.componentName = ''
+      }
     },
     value (val) {
       val === 'list' && this.$root.$map.resetSelectedMarker()
